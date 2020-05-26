@@ -22,7 +22,6 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
-
     @Bean
     public Module jacksonAfterBurnerModule() {
         return new AfterburnerModule();
